@@ -1,0 +1,33 @@
+ФИО: Агазаде Азер Вугар оглы
+Дата сдачи: 15.08.2024
+Номер группы: 6379
+
+    1  cat > Pets.txt << EOF
+Собаки
+Кошки
+Хомяки
+EOF
+    2  cat > PackAnimals.txt << EOF
+Лошади
+Верблюды
+Ослы
+EOF
+    3  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+    4  cat HumanFriends.txt
+    5  ls
+    6  mkdir FinalAttestation
+    7  mv HumanFriends.txt FinalAttestation/
+    8  ls FinalAttestation/
+    9  sudo apt update
+   10  sudo apt install software-properties-common
+   11  sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ focal mysql-8.0'
+   12  sudo apt update
+   13  sudo apt install mysql-server
+   14  sudo apt install mysql-client
+   15  sudo apt-get install curl
+   16  dpkg -l | grep curl
+   17  sudo dpkg -r curl
+   18  sudo dpkg -P curl
+   19  dpkg -l | grep curl
+   20  history > commands_history_for_final_attestation.txt
+   
